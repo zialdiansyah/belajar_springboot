@@ -1,0 +1,16 @@
+server:
+  port: 8081
+app:
+  name: Spring
+  currency: USD
+
+---
+spring:
+  config:
+    activate:
+      on-profile: development
+server:
+  port: 8085
+app:
+  name: Zia
+  currency: IDR
